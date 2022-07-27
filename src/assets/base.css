@@ -1,0 +1,44 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --vt-c-white: #ffffff;
+
+  --vt-c-dark-navy: #1f314f;
+
+  --vt-c-gray: #7d889e;
+
+  --vt-c-light-gray: #D5E1EF;
+}
+
+/* semantic color variables for this project */
+:root {
+  --vt-c-background: var(--vt-c-light-gray);
+}
+/* semantic font variables for this project */
+:root {
+  --vt-f-header: 700 22px "Outfit";
+  --vt-f-body: 400 15px "Outfit";
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  background-color: var(--vt-c-background);
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app {
+  max-width: 1280px;
+  font-weight: normal;
+}
