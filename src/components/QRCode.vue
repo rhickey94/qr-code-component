@@ -17,6 +17,7 @@
   max-width: 320px;
   background-color: var(--vt-c-white);
   border-radius: 20px;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
 
   h2 {
     font: var(--vt-f-header);
